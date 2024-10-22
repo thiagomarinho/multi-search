@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Multi Search",
+  "version": "1.0",
+  "options_page": "options.html",
+  "permissions": ["tabs", "tabGroups", "activeTab", "storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "omnibox": {
+    "keyword": "search"
+  }
+}
